@@ -7,7 +7,7 @@ userForm.loginFormCallback = (data) => {
         if (response.success === true) {
             location.reload;
         } else {
-            userForm.setLoginErrorMessage('Ошибка авторизации');
+            userForm.setLoginErrorMessage('Ошибка авторизации: ' + response.error);
         }
     });
 };

@@ -67,6 +67,18 @@
       "password": "admin",
       "id": 6,
       "balance": {
+        "RUB": 123,
+        "USD": 214.6829926071471,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2021-09-13T18:31:06.835Z",
+      "login": "admin1",
+      "password": "admin",
+      "id": 7,
+      "balance": {
         "RUB": 0,
         "USD": 0,
         "EUR": 0,
